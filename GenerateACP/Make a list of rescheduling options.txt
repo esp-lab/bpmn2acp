@@ -1,0 +1,5 @@
+artifact: BookingObject
+
+Precondition: instate(BookingObject,opened)
+
+Postcondition: instate(BookingObject,rescheduled)

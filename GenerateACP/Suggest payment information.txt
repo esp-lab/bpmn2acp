@@ -1,0 +1,5 @@
+artifact: CustomerSupportObject, BookingObject
+
+Precondition: instate(CustomerSupportObject,confirmedFromCustomer)
+
+Postcondition: instate(BookingObject,booked) /\ instate(CustomerSupportObject,suggestedPaymentInfoToCustomer)

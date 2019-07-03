@@ -1,0 +1,5 @@
+artifact: CustomerSupportObject
+
+Precondition: instate(CustomerSupportObject,initial)
+
+Postcondition: instate(CustomerSupportObject,opened)

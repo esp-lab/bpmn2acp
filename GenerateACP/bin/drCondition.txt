@@ -1,0 +1,11 @@
+<drcondition>
+Customer.Age>=18
+Customer.Age<=30
+Customer.Gender = "Male"
+Customer.Job = "Unidentified"
+Customer.DriverLicensePeriod>=0
+Customer.DriverLicensePeriod<=2
+Contract.InsuranceType= "Breakdown"
+Car.Level="Luxury"
+Car.Model="X6"
+</drcondition>

@@ -1,0 +1,5 @@
+artifact: BookingObject
+
+Precondition: instate(BookingObject,paidToProvider)
+
+Postcondition: instate(BookingObject,confirmedFromProvider)

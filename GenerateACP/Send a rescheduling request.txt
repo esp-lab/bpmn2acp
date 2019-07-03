@@ -1,0 +1,5 @@
+artifact: Flight, CustomerSupportObject
+
+Precondition: instate(Flight,sold)
+
+Postcondition: instate(CustomerSupportObject,initial)

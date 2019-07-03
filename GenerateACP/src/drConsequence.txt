@@ -1,0 +1,3 @@
+<drconsequence>
+Contract.PostRentAssessment = "Avoided"
+</drconsequence>

@@ -1,0 +1,5 @@
+artifact: BookingObject, CustomerSupportObject
+
+Precondition: instate(BookingObject,refunded) \/ instate(BookingObject,confirmedFromProvider)
+
+Postcondition: instate(BookingObject,done) /\ instate(CustomerSupportObject,done)

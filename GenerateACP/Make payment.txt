@@ -1,0 +1,5 @@
+artifact: BookingObject, CustomerSupportObject
+
+Precondition: instate(BookingObject,booked) /\ define(CustomerSupportObject.customerAcceptance) /\ define(CustomerSupportObject.customerSupportID) /\ instate(CustomerSupportObject,suggestedPaymentInfoToCustomer) /\ define(CustomerSupportObject.newBookingID) /\ define(CustomerSupportObject.oldBookingID)
+
+Postcondition: instate(BookingObject,paidFromCustomer)

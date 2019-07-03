@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/lib/camunda-bpmn-model-7.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="src/lib/camunda-cmmn-model-7.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="src/lib/camunda-xml-model-7.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="src/lib/dom4j-1.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jaxen-core.jar"/>
+	<classpathentry kind="lib" path="src/lib/jaxen-jdom.jar"/>
+	<classpathentry kind="lib" path="src/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="src/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="src/lib/orbital-core.jar"/>
+	<classpathentry kind="lib" path="src/lib/orbital-ext.jar"/>
+	<classpathentry kind="lib" path="src/lib/swingx-all-1.6.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/test-framework.jar"/>
+	<classpathentry kind="lib" path="src/lib/testXMI.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
